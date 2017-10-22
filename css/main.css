@@ -1,0 +1,207 @@
+body {
+    min-height: 2000px;
+    background: #f7f7f7;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    display: block;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.navbar-static-top {
+    margin-bottom: 0px;
+}
+
+
+/* Home */
+
+.home {
+    background: #1abc9c;
+}
+
+.home img {
+    max-width: 800px;
+}
+
+.home {
+    position: relative;
+    padding: 30px 0;
+    text-align: center
+}
+
+.home h1 {
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0
+}
+
+.home h2 {
+    margin: 10px 0 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5
+}
+
+
+/* Headphone */
+
+h2,
+p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+p {
+    color: #1abc9c;
+}
+
+.slider {
+    width: 100%;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.slick-slider button {
+    display: none!important;
+}
+
+.slick-slide {
+    color: #333;
+    padding: 40px 0;
+    font-size: 1.25em;
+    font-family: "Verdana";
+    text-align: center;
+    pointer-events: none;
+}
+
+.slick-slide .desc {
+    opacity: 0;
+}
+
+.slick-slide .desc > * {
+    transition: all 900ms ease;
+}
+
+.slick-slide .desc h2 {
+    position: relative;
+    left: 50px;
+    line-height: 1;
+}
+
+.slick-slide .desc p {
+    position: relative;
+    top: 50px;
+    opacity: 0;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-dots {
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding: 1px;
+    background: #ccc;
+    margin: 10px 5px;
+    width: 40px;
+    height: 7px;
+}
+
+.slick-dots li {
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active {
+    background: #1abc9c;
+}
+
+.slick-dots button {
+    display: none;
+}
+
+.slick-slide:nth-child(odd) {
+    /* background: blue;*/
+}
+
+.slick-slide {
+    opacity: 0.2;
+    transition: all 300ms ease;
+}
+
+.slick-current {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.slick-current .desc {
+    opacity: 1;
+}
+
+.slick-current .desc h2 {
+    left: 0;
+}
+
+.slick-current .desc p {
+    top: 0;
+    opacity: 1;
+}
+
+
+/* About */
+
+.about {
+    background: #34495e;
+    width: 100%;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.about-header .about-title,
+.about-desc
+{
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.about-header .about-title:hover,
+.about-desc:hover {
+    color: #1abc9c;
+}
+
+.about img {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* Footer */
+
+.footer {
+    background: #34495e;
+}
+
+.footer img {
+    max-width: 100%;
+    max-height: 100%;
+}
