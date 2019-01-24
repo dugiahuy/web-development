@@ -1,4 +1,4 @@
 # web-development
 Đồ án phát triển ứng dụng web
 
-Project 1
+![alt text](https://raw.githubusercontent.com/garrickdu/web-development/master/screenshot.png)
